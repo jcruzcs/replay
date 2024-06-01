@@ -1,0 +1,26 @@
+ header{
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+.terms-header h1{
+    color: white;
+}
+
+h1, h2 {
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.terms p, li {
+    color: white;
+    font-family: "Kode Mono", monospace;
+}

@@ -1,0 +1,83 @@
+.Container-Slide {
+    color: transparent;
+    position: relative;
+    width: 100%; /* Adjust based on your layout */
+    height: 100%; /* Adjust based on your layout */
+}
+
+.swiper-button-prev, .swiper-button-next {
+
+    border-color: #48ff00;
+    border-width: 1px;
+    font-size: 1px;  
+    
+    
+    z-index: 10;
+    background-color: #000000;
+    color: #48ff00;
+    width: 35px;
+    height: 350px;
+    
+    
+    top: -430px;
+   
+    border-radius: 15px;
+    cursor: pointer;
+
+
+    transition: all 0.3s ease;
+}
+
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    width: 45px; /* Increase width on hover */
+    height: 360px; /* Increase height on hover */
+}
+
+
+.swiper-button-prev {
+   
+ 
+    left: -100px; /* Moves the button towards the left edge */
+    
+}
+
+.swiper-button-next {
+     /* Moves the button towards the right edge */
+     
+   
+     margin-left: 380px;
+     
+}
+
+ion-icon {
+    font-size: 20px; 
+    color: #000; 
+}
+
+.swiper_container {
+    padding: 50px; 
+}
+@media (max-width: 768px) {
+    .swiper-button-prev, .swiper-button-next {
+        width: 20px; 
+        height: 100px; 
+        top: -260px; 
+    }
+
+    .swiper-button-prev {
+        left: -20px; 
+    }
+
+    .swiper-button-next {
+        margin-left: 230px; 
+    }
+
+    ion-icon {
+        font-size: 15px; 
+    }
+
+    .swiper_container {
+        padding: 20px; 
+    }
+}
